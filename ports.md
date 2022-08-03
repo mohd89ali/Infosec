@@ -668,6 +668,11 @@ nmap --script=mysql-databases.nse,mysql-empty-password.nse,mysql-enum.nse,mysql-
 
 mysql --host=10.11.1.111 -u root -p
 
+show databases;
+use DB_Name; 
+show tables; 
+select * from Table_name;
+
 # MYSQL UDF 4.x/5.0
 https://www.adampalmer.me/iodigitalsec/2013/08/13/mysql-root-to-system-root-with-udf-for-windows-and-linux/
 ```
