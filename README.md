@@ -66,3 +66,5 @@ pty.spawn("/bin/sh")
 
 
 -
+# start quick python http server 
+python3 -m http.server 80080
