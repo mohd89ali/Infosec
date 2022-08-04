@@ -3,6 +3,12 @@ My InfoSec Cheat sheet and stuff
 
 
 ------
+scan local network
+-----
+
+arp-scan --local
+
+------
 
 sqlmap 
 
