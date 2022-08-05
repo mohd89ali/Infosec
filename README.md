@@ -11,10 +11,7 @@ arp-scan --local
 
 ------
 
-OK so we've got SQLMap, but how do we release it upon our target?
-INJECTION TESTING
-Gathering commonly needed elements
-Cookies
+
 POST data (if data not in URL)
 sqlmap --url="http://bee-box/bWAPP/slqi_1.php?title=iron" --dbs
 --dbs info is found using the -hh option of sqlmap
