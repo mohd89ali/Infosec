@@ -57,6 +57,9 @@ exiftool
 
 steghide info
 
+binwalk - tool for searching binary images for embedded files and executable code
+
+
 
 ---
 # SPAWN PY SHELL
