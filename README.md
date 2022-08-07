@@ -68,3 +68,6 @@ pty.spawn("/bin/sh")
 -
 # start quick python http server 
 python3 -m http.server 80080
+
+# fuff coz i hate gobuster 
+ffuf -w /usr/share/wordlists/dirb/big.txt -u http://10.10.142.184/FUZZ -fs 42 -c -v 
