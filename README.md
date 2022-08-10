@@ -80,3 +80,5 @@ hydra -l kwheel -P /usr/share/wordlists/rockyou.txt 10.10.36.107 http-post-form 
 
 find / -type f -perm -04000 -ls 2>/dev/null
 
+# Capabilities 
+getcap -r / 2>/dev/null
