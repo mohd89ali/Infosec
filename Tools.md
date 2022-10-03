@@ -1,7 +1,19 @@
 
 # Network Scanning 
+
 nmap
+# Passwords
+
+Hashcat
+
+john the ripper
+
+Hydra 
+
+Mimikatz
+
 # Web pen test 
+
 burpsuite 
 
 NIKTO
@@ -11,6 +23,12 @@ ZAP
 SQLMAP
 
 Metasploit
+
+BeEF
+
+CeWL
+
+EyeWitness
 
 # malware analysis - differential analysis
 RegShot
@@ -50,3 +68,11 @@ Snort
 # Steganography
 
 exiftool 
+
+# Encryption 
+
+CyberChef 
+
+# Malware
+
+MsfVenom
